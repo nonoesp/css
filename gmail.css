@@ -1,0 +1,17 @@
+* {
+    font-family: BlinkMacSystemFont;
+}
+
+
+/* Hide Inbox new message count */
+
+[title*="Inbox"].n0 {
+    visibility: hidden;
+}
+
+[title*="Inbox"].n0:before {
+    content: "Inbox";
+    font-weight: 400;
+    opacity: 0.3;
+    visibility: visible;
+}
