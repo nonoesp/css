@@ -1,0 +1,24 @@
+* {
+    -font-size: 18px;
+    -line-height: 24px;
+    font-family: system-ui;
+}
+
+.AdaptiveMedia-container, .AdaptiveMedia-photoContainer, .TwitterCardsGrid, .card2 {
+    height: 250px;
+    max-width: 100%;
+    min-height: 250px;
+    width: 100%;
+}
+
+.dashboard, .Footer, .LiveVideoHomePageModuleContainer, .ProfileCardStats > * {
+    opacity: 0.0;
+}
+
+[role=main] {
+}
+
+li.people.notifications, .dm-nav, .global-nav-home, .js-moments-tab {
+    display: none;
+}
+
