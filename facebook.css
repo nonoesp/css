@@ -1,0 +1,16 @@
+/*
+ * Nono Martínez Alonso (Nono.ma)
+ *
+ * Simplify Facebook's login screen
+ * Place this code on Stylebot's Chrome extension
+ */
+
+#pagelet_video_home_suggested_for_you_rhc,
+#createNav,
+#appsNav,
+#pageFooter,
+.fb_logo,
+.pvl,
+.login_form_label_field {
+    display: none;
+}
